@@ -10,3 +10,8 @@ action=TEMPLATE
 target="_blank" rel="nofollow"> <i class="far fa-calendar-alt"> Add to google Calender </a>
 
 //Change the value of text, date, details, location based on our need
+
+For removing & symbol from the Sring in a URL
+(Based on Ascii Table)
+example
+https://stackoverflow.com/questions/16622504/escaping-ampersand-in-url
