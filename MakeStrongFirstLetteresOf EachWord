@@ -1,0 +1,12 @@
+// to make strong the first letters of each H1 Tag
+
+$.each($('.main-container h1'), function(key, item){
+      	var text_array = $(item).text().split(" ");
+      	var new_html =[];
+      	$.each(text_array,function(skey,sitem){
+      		var first_text = sitem.substr(0,1);
+      		var remaining = sitem.replace(first_text, "");
+      		new_html.push('<strong>'+first_text+'</strong>'+remaining);
+      	});
+      	$(item).html(new_html.join(" "));
+      });
